@@ -32,8 +32,24 @@ The game runs as a turn-based simulation where each action and random event can 
 ---
 
 ## How to run the game
-Make sure Python is installed, then run:
+Make sure Python is installed on your system.  
+Run the program using the following command:
 
 ```bash
 python CitySim_project2.py
 ```
+## How to play
+
+After starting the game, the city map and a menu of actions will be displayed on the screen.
+
+The player interacts with the game by entering numeric choices from the menu.
+Each turn, type the number corresponding to the desired action and press Enter.
+
+When building structures such as streets or buildings, the game will prompt the player
+to enter coordinates as two numbers separated by a space.
+
+- The first number represents the row (vertical position) on the city map
+- The second number represents the column (horizontal position) on the city map
+
+Example input:
+2 4
